@@ -1,0 +1,17 @@
+#letter {
+	display: none;
+	
+}
+
+.well {
+	margin-top: 50px;
+	box-shadow: 5px 5px 2px #e1d8cb;
+	font-family: 'Miss Fajardose', cursive;
+	font-size: 30px;
+}
+
+.santa {
+	font-family: 'Miss Fajardose', cursive;
+	font-size: 70px;
+}
+

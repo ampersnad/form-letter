@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Miss+Fajardose" rel="stylesheet">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A letter to you</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Add your name to create your letter!</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="person1">Your name</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          
+          <button type="submit" class="btn">Reveal your letter</button>
+        </form>
+      </div>
+
+      <div id="letter">
+		<div class="well">
+			<p>Dear <span class="person1"></span>,</p>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac nibh non neque malesuada consequat. Phasellus libero nunc, fermentum sed enim vitae, efficitur malesuada lacus. Nullam dapibus tortor a rutrum finibus. Cras et fringilla lacus, vitae eleifend enim. Phasellus ac metus lectus. Nullam et lorem porta, tempus tortor id, gravida augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras ut suscipit arcu, in finibus sem. Nam tincidunt quam leo, <span class="person1"></span>, in pellentesque nibh auctor id. Praesent at tincidunt lectus. Fusce cursus augue eget orci sollicitudin, sit amet euismod lorem cursus. Integer mattis ante non volutpat lobortis. Vestibulum vitae volutpat orci. Nam ut felis non dui pretium ultricies id nec velit. Mauris porta neque bibendum magna ornare, quis ultrices magna sollicitudin. Curabitur mattis quis orci in feugiat.</p>
+			<p>Sincerely,</p>
+			<p class="santa">Santa Clause</p>
+		</div>
+      </div>
+    </div>
+  </body>
+</html>
